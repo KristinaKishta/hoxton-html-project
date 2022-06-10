@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  width: 500px;
+  gap: 1rem;
+  box-shadow: 4px 4px 5px 5px rgb(130, 240, 207);
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin: auto;
+  padding: 2.5rem;
+  gap: 1rem;
+  padding-top: 1rem;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.material-icons {
+  color: rgb(130, 240, 207);
+}
+
+h3 {
+  margin-left: 150px;
+}
+
+.notification {
+  padding: 10px;
+}
+
+.notification :hover {
+  background-color: whitesmoke;
+}

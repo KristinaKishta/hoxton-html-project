@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template:
+    "header" auto
+    "main" auto/
+    auto;
+  width: 700px;
+  gap: 1rem;
+  box-shadow: 4px 4px 5px 5px rgb(130, 240, 207);
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin: auto;
+  padding: 2.5rem;
+  gap: 1rem;
+  padding-top: 1rem;
+  border-radius: 10px;
+}
+
+.header {
+  background-color: white;
+  grid-area: header;
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.sec-1 {
+  object-fit: contain;
+  height: 80px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.sec-1 span {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.sec-2 {
+  margin-top: 10px;
+  margin-left: 7px;
+  margin-bottom: 15;
+  text-transform: capitalize;
+  color: gray;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: 0px 1px 1px;
+  width: 300px;
+}
+
+button {
+  background-color: white;
+  outline: none;
+  border: none;
+}
+
+input {
+  background-color: white;
+  outline: none;
+  border: none;
+}
+
+.main {
+  grid-area: main;
+}
+
+.message {
+  padding: 7px;
+}
+
+.message :hover {
+  background-color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
